@@ -12,13 +12,14 @@
 	<title>Template for your site Fugrm</title>
 	<f:base />
 	<f:section name="stylesheets">
-		<!-- put your stylesheet inclusions here, they will be included in your website by TypoScript -->
+		<link rel="stylesheet" href="{f:uri.resource(path: 'Css/Fonts.css', package: 'Fugrm.FugrmPage')}" type="text/css" media="all"/>
+		<link rel="stylesheet" href="{f:uri.resource(path: 'Css/Style.css', package: 'Fugrm.FugrmPage')}" type="text/css" media="all"/>
 	</f:section>
-	
+
 </head>
 <body>
 <f:section name="body">
-	<h1>A freshly created template for your new site!</h1>
+	<h1>TYPO3.Flow Usergroup Rhein-Main</h1>
 	<nav class="menu"><ts:renderTypoScript path="parts/menu" /></nav>
 	<nav class="breadcrumb"><ts:renderTypoScript path="parts/breadcrumb" /></nav>
 	<div class="content"><ts:renderTypoScript path="sections/main" /></div>

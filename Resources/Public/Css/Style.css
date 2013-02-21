@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font: 12px/18px Arial, 'Helvetica Neue', Helvetica, sans-serif
+}
+
+section#wrapper {
+	width: 918px;
+	margin: 0 auto;
+}
+
+section#content {
+	clear: both;
+	min-height: 500px;
+	padding: 5px;
+}
+
+section#content p {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+div.content-container {
+	width: 400px;
+	float: left;
+	padding: 20px;
+}
+
+div.content-row {
+	clear: both;
+}
+
+h1 {
+	font: 24px 'ArchitectsDaughterRegular', Arial, sans-serif;
+	letter-spacing: 0;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+h2 {
+	font: 18px 'ArchitectsDaughterRegular', Arial, sans-serif;
+	letter-spacing: 0;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+h3 {
+	font: 14px 'ArchitectsDaughterRegular', Arial, sans-serif;
+	letter-spacing: 0;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+h4 {
+	font: 12px 'ArchitectsDaughterRegular', Arial, sans-serif;
+	letter-spacing: 0;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+img {
+	border: 0px;
+}
+
+hr {
+	border: none;
+	border-bottom: 1px dotted #C0C0C0;
+	margin: 10px 0;
+}
+
+a {
+	color: #98141F;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul {
+	margin-left: 3px;
+}
+
+ul li {
+	margin-left: 15px;
+}
+
+/** Footer **/
+footer {
+	border-top: 1px dotted #C0C0C0;
+	padding: 5px;
+	display: block;
+	clear: both;
+}
+
+footer span.left {
+	float: left;
+}
+
+footer span.right {
+	float: right;
+}
+
+/** Header **/
+header {
+	height: 80px;
+}
+
+header a img {
+	margin-top: 20px;
+}
+
+/** Navigation **/
+nav {
+
+}
+
+ul.nav {
+	background: url("../Images/s-buttons.png") repeat-x scroll 0 0 transparent;
+	border: 1px solid #99011E;
+	display: block;
+	height: 32px;
+	z-index: 80;
+}
+
+nav span.headline {
+	float: right;
+}
+
+nav span.headline h1 {
+	margin: 5px 5px 0 0;
+	color: #FFFFFF;
+}
+
+nav ul {
+	margin: 0;
+}
+
+nav ul li {
+	float: left;
+	list-style: none;
+	text-align: center;
+	margin: 0;
+}
+
+nav ul li a {
+	background: url("../Images/s-buttons.png") no-repeat scroll 0 0 transparent;
+	border-left: 1px solid #E1A2AE;
+	border-right: 1px solid #99011E;
+	color: #FFFFFF;
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+	padding: 0 10px;
+	text-decoration: none;
+}
+
+nav ul li a:hover, nav ul li.active a {
+	background-position: 0 -32px;
+}
+
+nav ul li:hover {
+
+}
