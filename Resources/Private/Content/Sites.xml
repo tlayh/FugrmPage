@@ -1,15 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
-	<site nodeName="fugrmpage">
-		<properties>
-			<name>Fugrm</name>
-			<state>1</state>
-			<siteResourcesPackageKey>Fugrm.FugrmPage</siteResourcesPackageKey>
-		</properties>
-		<node identifier="" type="TYPO3.Neos.ContentTypes:Page" nodeName="homepage" locale="en_EN">
-			<properties>
-				<title>Home</title>
-			</properties>
-		</node>
-	</site>
-</root>
+<root><site nodeName="fugrmpage"><properties><name>Fugrm</name><state>1</state><siteResourcesPackageKey>Fugrm.FugrmPage</siteResourcesPackageKey></properties><node identifier="6f25198b-9e5b-4a87-aef5-d30707ead53c" type="TYPO3.Neos.ContentTypes:Page" nodeName="homepage" locale=""><properties><title>Home</title></properties><node identifier="ec20ab62-0b33-4746-b65a-a4f003e04579" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale=""/></node><node identifier="787b2b01-f174-47bd-8481-1c8fea597ae9" type="TYPO3.Neos.ContentTypes:Page" nodeName="node512655bd06ea8" locale=""><properties><title>Termine</title></properties><node identifier="708460fa-7230-46f7-8f92-a317a06748d6" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale=""/></node><node identifier="d607fff8-1027-4fb2-baad-29e814026c94" type="TYPO3.Neos.ContentTypes:Page" nodeName="node512655e318aae" locale=""><properties><title>Archive</title></properties><node identifier="a4cf1ffc-45db-466d-8d7a-16bb9772f2a8" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale=""/></node><node identifier="32d04586-69d2-41f0-9eb7-49796c993eef" type="TYPO3.Neos.ContentTypes:Page" nodeName="node512655e7a8bb9" locale=""><properties><title>Kontakt</title></properties><node identifier="61206460-5ff1-4c94-809c-1ed959c5d1bf" type="TYPO3.Neos.ContentTypes:Section" nodeName="main" locale=""><node identifier="cb9168c0-ba33-46a0-852c-5ba90544735c" type="TYPO3.Neos.ContentTypes:TwoColumn" nodeName="node512658c5e1743" locale=""><properties><layout>50-50</layout></properties><node identifier="f28923b2-9a0d-4f17-ac6b-53c6552d4efd" type="TYPO3.Neos.ContentTypes:Section" nodeName="column0" locale=""><node identifier="6a101e73-c1c2-4316-a72b-d2507a1d59db" type="TYPO3.Neos.ContentTypes:Headline" nodeName="node512658cf6854a" locale=""><properties><title><![CDATA[<h1>Kontak</h1>]]></title></properties></node><node identifier="38c2ba1a-0a76-4692-b7b1-1af79c09a79c" type="TYPO3.Neos.ContentTypes:Text" nodeName="node512658de733ca" locale=""><properties><text><![CDATA[<p><a href="mailto:info@fugrm.de">info (at) fugrm.de</a><br></p>]]></text></properties></node></node><node identifier="2463d7a9-6d68-473d-af97-6e2eb767b7e3" type="TYPO3.Neos.ContentTypes:Section" nodeName="column1" locale=""><node identifier="3027165b-b29e-4f6b-bed2-405a82285e24" type="TYPO3.Neos.ContentTypes:Headline" nodeName="node51265900b0d43" locale=""><properties><title><![CDATA[<h1><h2 style="letter-spacing: normal;">Mailingliste</h2></h1>]]></title></properties></node><node identifier="dd169ccf-8f26-42ea-9f85-9365cba8d0c5" type="TYPO3.Neos.ContentTypes:Text" nodeName="node512659164080d" locale=""><properties><text><![CDATA[<p><a href="http://lists.typo3.org/cgi-bin/mailman/listinfo/flow3-ug-rhein-main" target="_blank">FLOW3 Usergroup Rhein-Main</a><br></p>]]></text></properties></node></node></node></node></node></site></root>
