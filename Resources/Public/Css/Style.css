@@ -12,13 +12,13 @@ section#wrapper {
 	margin: 0 auto;
 }
 
-section#content {
+div#content {
 	clear: both;
 	min-height: 500px;
 	padding: 5px;
 }
 
-section#content p {
+div#content p {
 	margin-top: 3px;
 	margin-bottom: 3px;
 }
@@ -163,4 +163,14 @@ nav ul li a:hover, nav ul li.active a {
 
 nav ul li:hover {
 
+}
+
+/** new styles for neos **/
+div.columns-50-50 {
+	float: left;
+}
+
+div.columns-50-50 div.column {
+	float: left;
+	width: 400px;
 }

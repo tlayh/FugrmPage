@@ -19,10 +19,28 @@
 </head>
 <body>
 <f:section name="body">
-	<h1>TYPO3.Flow Usergroup Rhein-Main</h1>
-	<nav class="menu"><ts:renderTypoScript path="parts/menu" /></nav>
-	<nav class="breadcrumb"><ts:renderTypoScript path="parts/breadcrumb" /></nav>
-	<div class="content"><ts:renderTypoScript path="sections/main" /></div>
+	<section id="wrapper">
+		<header>
+			<a href="/">
+				<img src="{f:uri.resource(path: 'Images/typo3-flow-logo-h40px.png', package: 'Fugrm.FugrmPage')}" alt="FLOW3 Usergroup Rhein-Main" title="FLOW3 Usergroup Rhein-Main"/>
+			</a>
+		</header>
+
+		<nav class="menu"><ts:renderTypoScript path="parts/menu" /></nav>
+
+		<!-- <nav class="breadcrumb"><ts:renderTypoScript path="parts/breadcrumb" /></nav> -->
+
+		<div id="content"><ts:renderTypoScript path="sections/main" /></div>
+
+		<footer>
+			<span class="left">
+				<h4>TYPO3 Flow Usergroup Rhein-Main</h4>
+			</span>
+			<span class="right">
+				Website created with <a href="http://neos.typo3.org/" target="_blank">TYPO3 Neos</a>
+			</span>
+		</footer>
+	</section>
 </f:section>
 </body>
 </html>
