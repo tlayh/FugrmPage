@@ -16,6 +16,7 @@ div#content {
 	clear: both;
 	min-height: 500px;
 	padding: 5px;
+	width: 620px;
 }
 
 div#content p {
@@ -119,7 +120,7 @@ nav {
 
 ul.nav {
 	background: url("../Images/s-buttons.png") repeat-x scroll 0 0 transparent;
-	border: 1px solid #99011E;
+	border: 1px solid #E97E0D;
 	display: block;
 	height: 32px;
 	z-index: 80;
@@ -147,8 +148,6 @@ nav ul li {
 
 nav ul li a {
 	background: url("../Images/s-buttons.png") no-repeat scroll 0 0 transparent;
-	border-left: 1px solid #E1A2AE;
-	border-right: 1px solid #99011E;
 	color: #FFFFFF;
 	display: inline-block;
 	height: 32px;
@@ -168,9 +167,14 @@ nav ul li:hover {
 /** new styles for neos **/
 div.columns-50-50 {
 	float: left;
+	width: 100%;
 }
 
 div.columns-50-50 div.column {
 	float: left;
-	width: 400px;
+	width: 50%;
+}
+
+div.columns-50-50 div.column h2 {
+	margin-top: 30px;
 }
